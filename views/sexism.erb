@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  <style> 
+  body{text-align:center; font-size: 25px; background-color:#E1DAC4;
+    font-family: Tahoma; 
+  }
+   
+  #map {
+    width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+  
+  div{text-align: center;}
+  </style>
+  
+  
+  </head>
+  
+  
+  <body>
+    <br><h1> How YOU Can Make an Impact</h1>
+     <b>LISTEN</b> to people of color and women about they're experiences of discrimination and <br><b>DO NOT DISCREDIT</b> them by brushing them off. <br><br>
+     
+     <b>STEP IN</b>  when you see someone being discriminated against. <br><br> 
+     <b>LEARN</b> about the discrimation in your area and <br> <b>PARTICIPATE</b> in local anti-discrimination protests and programs
+     <br> <br>
+     <b>CONTACT</b> your local, state, and national representatives about creating all-inclusive policies  
+     
+     <br> <br>
+    <b> VOTE</b> for politicians advocating for equality of the races and sexes </b> <br> <br>
+   <a href="https://everydayfeminism.com/2014/09/non-racist-white-person/?utm_content=buffer92b7c&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer"> "10 Ways White People Can Step Up to Fight Everyday Racism" </a> from Everyday Feminism <br> <br><br> <br>
+   
+   <h2> <b>Local Organizations</b> </h2>
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+
+  key = AIzaSyAjpc5KzaVt8o2h0oD0owOGju0E2_xHJTc 
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjpc5KzaVt8o2h0oD0owOGju0E2_xHJTc&callback=initMap">
+    </script>
+   
+   <br><br> <h2><b> National Organizations </b></h2>
+  <b>NAACP</b>
+ <b> NOMAS</b>, the National Organization for Men Against Sexism, focuses on the harmful effects of sexism on both genders and works to combat it through helping men 
+ 
+    
+    <br><br><br>
+    <h1> People Making Impacts </h1>
+    <h2> Against Racism </h2>
+    <b> Bryan Stevenson </b> is the creator of <a href="https://eji.org/"> Equal Justice Intiative (EJI)</a> a group dedicated opposing racial and economic injustice <br> and protecting the basic rights of minority groups in America.
+    
+    <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/bryan_stevenson_we_need_to_talk_about_an_injustice" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+    <br><br>
+    
+    <h2> Against Sexism</h2>
+    <b> Malala Yousafzai</b>
+    
+  </body>
+  
+  
+  
+</html>
