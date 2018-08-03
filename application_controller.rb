@@ -32,6 +32,10 @@ class MyApp < Sinatra::Base
   get '/home' do
     erb :homepage
    end 
+   
+   get '/impact' do 
+     erb :impact
+   end 
 
   post '/biasquiz' do 
     answers = params.values
