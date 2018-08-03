@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <style>
+    body{background-color:#E1DAC4; 
+    font-family: Tahoma; 
+    }
+    
+    h1{text-align: center; 
+      font-family: Tahoma; 
+    }
+    
+    h2{font-size: 25px;
+      text-align: center;
+      font-family: Tahoma; 
+    }
+    
+    p{font-size: 20px;
+      text-align: justify;
+      font-family: Tahoma; 
+    }
+  </style>
+  </head>
+
+  
+  
+  <body>
+    <form method="POST" action='/biasquiz'>
+  
+ <h1> How biased are you? </h1> 
+  <h2> Admit it: We all have our own internal biases. Take this quiz to see how much <br> implicit bias you have. Please answer these questions as truthfully as possible.</h2><br>
+  
+  <p> When you see two people of the same race together, do you typically assume they are related?<br>
+ <input type="radio" name="relation" value="2">Yes<br>
+  <input type="radio" name="relation" value="0">No<br></p>
+
+<p> Have you ever said you're not racist because you have a friend of a different race?<br>
+   <input type="radio" name="friend" value="2">Yes<br>
+  <input type="radio" name="friend" value="0">No<br></p>
+
+<p> Do you believe in All Lives Matter (the movement)?  <br>
+ <input type="radio" name="matter" value="2">Yes<br>
+  <input type="radio" name="matter" value="0">No<br></p>
+
+<p> Have you ever unconsciously moved away from someone of a different race?<br>
+   <input type="radio" name="distance" value="2">Yes<br>
+   <input type="radio" name="distance" value="0">No<br>
+</p>
+
+<p> Do you usually assign domestic tasks to females?<br>
+ <input type="radio" name="physical" value="2">Yes<br>
+  <input type="radio" name="physical" value="0">No<br>
+</p>
+
+<p> When you think of a leader, do you think often assume they are male?<br>
+
+ <input type="radio" name="leader" value="2">Yes<br>
+<input type="radio" name="leader" value="0">Female<br>
+  </p>
+  
+<p> Do you think Affirmative Action - a law that gives opportunities to disadvantaged people <br> in schools and workplaces - is unfair to others? <br>
+ <input type="radio" name="affaction" value="2">Yes<br>
+  <input type="radio" name="affaction" value="0">No<br>
+</p>
+
+<button type="submit" class="new"> Submit </button>
+</form>
+    
+</body>
+  
+</html>
