@@ -33,7 +33,7 @@ class MyApp < Sinatra::Base
     elsif @combo == "somewhatracist"
       erb :somewhatracist
     elsif @combo == "notracist"
-     erb :notracist
+     erb :notbiased
    end   
   end
   
