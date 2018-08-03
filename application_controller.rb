@@ -22,6 +22,11 @@ class MyApp < Sinatra::Base
   get '/racism' do
     erb :racism 
   end 
+  
+  get 'sexism' do
+    erb :sexism
+    
+  get 'about'
     
 
   post '/biasquiz' do 
