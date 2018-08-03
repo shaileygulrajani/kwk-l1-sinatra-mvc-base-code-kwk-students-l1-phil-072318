@@ -23,13 +23,13 @@ class MyApp < Sinatra::Base
     erb :racism 
   end 
   
-  get 'sexism' do
+  get '/sexism' do
     erb :sexism
   end  
-  get 'about' do
+  get '/about' do
     erb :about
   end   
-  get 'home' do
+  get '/home' do
     erb :homepage
    end 
 
