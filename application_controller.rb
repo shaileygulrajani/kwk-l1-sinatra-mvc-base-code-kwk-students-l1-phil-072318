@@ -25,13 +25,13 @@ class MyApp < Sinatra::Base
   
   get 'sexism' do
     erb :sexism
-    
+  end  
   get 'about' do
     erb :about
-    
+  end   
   get 'home' do
     erb :homepage
-    
+   end 
 
   post '/biasquiz' do 
     answers = params.values
@@ -104,7 +104,3 @@ class MyApp < Sinatra::Base
   end 
 end 
 end 
-end
-end 
-end
-end
