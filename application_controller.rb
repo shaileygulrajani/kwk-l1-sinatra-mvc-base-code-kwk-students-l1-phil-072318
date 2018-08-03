@@ -23,7 +23,7 @@ class MyApp < Sinatra::Base
     erb :racism 
   end 
     
-    
+
   post '/biasquiz' do 
     answers = params.values
     @total= 0
