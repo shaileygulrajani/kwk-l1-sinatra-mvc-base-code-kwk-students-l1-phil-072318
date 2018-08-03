@@ -17,7 +17,25 @@ class MyApp < Sinatra::Base
   
   get '/biasquiz' do 
     erb :quiz 
-  end 
+  end
+  
+  post '/biasquiz' do 
+    answers = params.values
+    @total= 0
+    answers.each do |answers|
+      @total += answers.to_i
+    puts @total
+  end
+   
+   @combo = racismquiz(@total)
+    if @combo == "reallyracist"
+      erb :reallyracist
+    elsif @combo == "somewhatracist"
+      erb :somewhatracist
+    elsif @combo == "notracist"
+     erb :notracist
+   end   
+  end
   
   get '/hello/:name' do 
     @yourname = params[:name]
