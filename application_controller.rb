@@ -31,7 +31,7 @@ class MyApp < Sinatra::Base
     if @combo == "reallyracist"
       erb :reallyracist
     elsif @combo == "somewhatracist"
-      erb :somewhatracist
+      erb :somewhatbiased
     elsif @combo == "notracist"
      erb :notbiased
    end   
