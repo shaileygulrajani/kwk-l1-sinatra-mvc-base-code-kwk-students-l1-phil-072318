@@ -19,7 +19,7 @@ class MyApp < Sinatra::Base
     erb :quiz 
   end
   
-  get '/staywoke' do
+  get '/RACISM' do
     erb :racism 
   end 
     
