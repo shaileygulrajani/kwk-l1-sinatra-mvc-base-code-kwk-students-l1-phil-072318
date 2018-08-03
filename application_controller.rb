@@ -98,10 +98,6 @@ class MyApp < Sinatra::Base
       elsif params[:fifth_problem] != "0"
       "The fifth problem is incorrect!"
     end 
-    
-    
+  end  
     
   end 
-end 
-end 
-end
