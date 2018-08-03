@@ -19,6 +19,11 @@ class MyApp < Sinatra::Base
     erb :quiz 
   end
   
+  get '/racism' do
+    erb :homepage
+  end 
+    
+    
   post '/biasquiz' do 
     answers = params.values
     @total= 0
