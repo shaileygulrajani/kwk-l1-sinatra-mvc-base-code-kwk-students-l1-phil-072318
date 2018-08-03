@@ -1,0 +1,20 @@
+h1 
+{font-family: cursive bold;
+text-align: center;
+font-size:50; 
+}
+
+h2 {
+    font-family: savoye LET; 
+    font-size: 40px; 
+    text-align: left; 
+    
+}
+
+body{
+    background: linear-gradient(#D8F2FE, #FED8F9, #FDFDFD, #D8F2FE); 
+    font-family: savoye LET; 
+    font-size: 30px;
+    text-align: center; 
+}
+
